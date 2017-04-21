@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <TextView
+        android:text="AQUARIUS (JANUARY 21 – FEBRUARY 20)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView11"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <TextView
+        android:text="THE YEAR AHEAD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:id="@+id/textView13"
+        android:textSize="12sp"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_below="@+id/textView11"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="KEY DATE: Late March brings your peak romantic powers."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:id="@+id/textView18"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_below="@+id/textView14"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="You should be getting out and about, enjoying yourself and making useful contacts for the future. With Jupiter, planet of good fortune, so prominent you can hardly fail to try your best in all relationships – and there’s an excellent chance of success. One word of warning, though – don’t put such huge demands on partners that they can never be fulfilled. By the middle of the year you should notice a distinct improvement in your social situation, perhaps because you’re much more confident and happy to stand up for yourself. Later in the year romance will be based around home entertaining, with old friends who are more like part of the family appearing on the scene."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView14"
+        android:textSize="11sp"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_below="@+id/textView13"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        app:srcCompat="@drawable/aquariusfrag"
+        android:id="@+id/imageView2"
+        android:layout_height="150dp"
+        android:layout_width="300dp"
+        android:layout_below="@+id/textView18"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginStart="26dp"
+        android:background="@android:color/transparent" />
+
+</RelativeLayout>

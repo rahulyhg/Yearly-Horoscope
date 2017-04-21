@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="CAPRICORN (DECEMBER 23 – JANUARY 20)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView3"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <TextView
+        android:text="THE YEAR AHEAD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp"
+        android:id="@+id/textView4"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="12sp" />
+
+    <TextView
+        android:text="The first part of your year is important for financial affairs, and a good time for you to start re-examining your whole approach to money; what’s certain is that you should not be putting all your eggs in one basket. Study is in the air, so spend your time picking up new skills and acquiring fresh experience. Assuming that you’ve increased your financial options, June could well find you receiving pennies from heaven. It could be an excellent month for leisure and pleasure and for getting your ideas across. But where colleagues are concerned do beware: if you’ve been taking advantage of someone else you may now be getting more than you bargained for in return."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView5"
+        android:textSize="11sp"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <TextView
+        android:text="KEY DATE: The Full Moon in November gives you a much-needed energy boost."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="22dp"
+        android:id="@+id/textView6"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:layout_width="300dp"
+        app:srcCompat="@drawable/capricornfrag"
+        android:layout_below="@+id/textView6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:id="@+id/imageView3"
+        android:layout_height="150dp"
+        android:background="@android:color/transparent" />
+
+</RelativeLayout>

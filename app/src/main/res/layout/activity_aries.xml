@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="ARIES (MARCH 21 – APRIL 20)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView3"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <TextView
+        android:text="THE YEAR AHEAD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp"
+        android:id="@+id/textView4"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="12sp" />
+
+    <TextView
+        android:text="Families and how to survive them: that’s your area of expertise early in the year, now that Mars has its great wooden spoon out, stirring up the murky depths at home. There’s a simple way to dodge this planet’s little blind spots, and that’s to spend your valuable energy on activities which mean a lot to you but may have nothing to with people who think they own you. From June onwards you should do what you do best, and that’s tackle practical questions. While everyone else is causing chaos you can roll your sleeves up, fix broken objects, patch up relationships and move steadily up the ladder of personal success. Given that your Autumn stars are delightfully auspicious, you can also afford to feel confident late in the year; somehow, you will have acquired a knack of being in the best place at the right time."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView5"
+        android:textSize="11sp"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <TextView
+        android:text="KEY DATE: May brings a touch of love and a hint of extra harmony – plus a pleasurable meeting."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="22dp"
+        android:id="@+id/textView6"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:layout_width="300dp"
+        app:srcCompat="@drawable/ariesfrag"
+        android:layout_below="@+id/textView6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:id="@+id/imageView3"
+        android:layout_height="150dp"
+        android:background="@android:color/transparent" />
+
+</RelativeLayout>

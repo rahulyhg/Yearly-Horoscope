@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="VIRGO (AUGUST 24 – SEPTEMBER 23))"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView3"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <TextView
+        android:text="THE YEAR AHEAD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp"
+        android:id="@+id/textView4"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="12sp" />
+
+    <TextView
+        android:text="Back to basics. That’s this year’s priority. That doesn’t mean you can’t set off on a whole new adventure but, whenever you do so, you need to have firm foundations to return to. At home, at work and in your most intimate affairs, take the opportunity to get to the bottom of problems which have been irritating you – or generally causing confusion. March is, by tradition, one of your busiest months, especially in domestic matters. You may reach a point where you decide that enough is enough and make a fresh start in a whole series of activities. Do remember that the best route is to find a middle path and that, therefore, diplomacy and tact are always your best bet."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView5"
+        android:textSize="11sp"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <TextView
+        android:text="KEY DATE: Jupiter’s relationship with Saturn in August enables you to work hard without losing sight of your vision of the future."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="22dp"
+        android:id="@+id/textView6"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:layout_width="300dp"
+        app:srcCompat="@drawable/virgofrag"
+        android:layout_below="@+id/textView6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:id="@+id/imageView3"
+        android:layout_height="150dp"
+        android:background="@android:color/transparent" />
+
+</RelativeLayout>

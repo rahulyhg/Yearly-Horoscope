@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="GEMINI (May 22 – June 21)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView3"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <TextView
+        android:text="THE YEAR AHEAD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp"
+        android:id="@+id/textView4"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="12sp" />
+
+    <TextView
+        android:text="There’s a lively slant to your stars, as if they’re trying to give you a gentle nudge into pastures new. In fact, close partners will drive you in untried directions, opening the window onto a whole new life. Sure, they may be expecting you to make up for their frustrations, but that doesn’t really matter so long as you achieve your ends. There’s another side to the picture over the Summer, signalled by Venus’ intense relationship with high-energy Mars. This suggests that people who are under stress are about to blow – so take cover! Your need for financial and professional recognition reaches a peak in the Autumn but, before you put a partner under too much pressure, give them a chance to back out!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView5"
+        android:textSize="11sp"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <TextView
+        android:text="KEY DATE: Late March finds you benefiting from Venus, planet of grace, and Mercury, symbol of bright ideas."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="22dp"
+        android:id="@+id/textView6"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:layout_width="300dp"
+        app:srcCompat="@drawable/geminifrag"
+        android:layout_below="@+id/textView6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:id="@+id/imageView3"
+        android:layout_height="150dp"
+        android:background="@android:color/transparent" />
+
+</RelativeLayout>

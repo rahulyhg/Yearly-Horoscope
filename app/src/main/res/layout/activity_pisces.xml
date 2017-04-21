@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="PISCES (FEBRUARY 21 – MARCH 20)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView3"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <TextView
+        android:text="THE YEAR AHEAD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp"
+        android:id="@+id/textView4"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="12sp" />
+
+    <TextView
+        android:text="This is an important business year for you, and there’ll be moments when you can enjoy a spot of profitable speculation, provided you make sure you’ve got all your options covered, first. Towards the end of the spring personal relationships will assume greater prominence, and you will need to act with consistency to avoid problems with colleagues. A little forward planning will work wonders! You’ll be examining your own achievements and spiritual aspirations, and it is important for you to act in accordance with your ideals, rather than be swayed by what other people expect of you. That’s the best thing you can learn this year!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView5"
+        android:textSize="11sp"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <TextView
+        android:text="KEY DATE: Let your hair down in March and go all out for professional acclaim in October."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="22dp"
+        android:id="@+id/textView6"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:layout_width="300dp"
+        app:srcCompat="@drawable/piscesfrag"
+        android:layout_below="@+id/textView6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:id="@+id/imageView3"
+        android:layout_height="150dp"
+        android:background="@android:color/transparent" />
+
+</RelativeLayout>

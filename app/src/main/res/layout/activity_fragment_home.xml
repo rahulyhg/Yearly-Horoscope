@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:textAlignment="center">
+
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/aries"
+        android:layout_marginLeft="34dp"
+        android:layout_marginStart="34dp"
+        android:id="@+id/imAries"
+        android:layout_alignTop="@+id/imCancer"
+        android:layout_toRightOf="@+id/imCancer"
+        android:layout_toEndOf="@+id/imCancer" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/cancer"
+        android:layout_marginLeft="36dp"
+        android:layout_marginStart="36dp"
+        android:id="@+id/imCancer"
+        android:layout_alignTop="@+id/imAquarius"
+        android:layout_toRightOf="@+id/imAquarius"
+        android:layout_toEndOf="@+id/imAquarius" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/carpricon"
+        android:id="@+id/imCapricorn"
+        android:layout_alignTop="@+id/imAries"
+        android:layout_toRightOf="@+id/imAries"
+        android:layout_toEndOf="@+id/imAries"
+        android:layout_marginLeft="37dp"
+        android:layout_marginStart="37dp" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/leo"
+        android:layout_alignTop="@+id/imGemini"
+        android:layout_toLeftOf="@+id/imAries"
+        android:layout_toStartOf="@+id/imAries"
+        android:id="@+id/imLeo" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/libra"
+        android:layout_alignTop="@+id/imLeo"
+        android:id="@+id/imLibra"
+        android:layout_alignRight="@+id/imAries"
+        android:layout_alignEnd="@+id/imAries" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/scorpio"
+        android:layout_alignTop="@+id/imSagittaurus"
+        android:layout_toLeftOf="@+id/imAries"
+        android:layout_toStartOf="@+id/imAries"
+        android:id="@+id/imScorpio" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/taurus"
+        android:layout_alignTop="@+id/imScorpio"
+        android:layout_alignLeft="@+id/imLibra"
+        android:layout_alignStart="@+id/imLibra"
+        android:id="@+id/imTaurus" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/virgo"
+        android:layout_alignTop="@+id/imTaurus"
+        android:layout_alignLeft="@+id/imPisces"
+        android:layout_alignStart="@+id/imPisces"
+        android:id="@+id/imVirgo" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/sagittaurus"
+        android:layout_marginTop="40dp"
+        android:id="@+id/imSagittaurus"
+        android:layout_below="@+id/imGemini"
+        android:layout_alignLeft="@+id/imGemini"
+        android:layout_alignStart="@+id/imGemini" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/gemini"
+        android:layout_marginTop="34dp"
+        android:id="@+id/imGemini"
+        android:layout_below="@+id/imAquarius"
+        android:layout_alignLeft="@+id/imAquarius"
+        android:layout_alignStart="@+id/imAquarius" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/pisces"
+        android:id="@+id/imPisces"
+        android:layout_alignTop="@+id/imLibra"
+        android:layout_alignLeft="@+id/imCapricorn"
+        android:layout_alignStart="@+id/imCapricorn" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/aquarius"
+        android:layout_marginTop="72dp"
+        android:id="@+id/imAquarius"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp" />
+
+    <TextView
+        android:text="Aquarius"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imAquarius"
+        android:layout_toLeftOf="@+id/imCancer"
+        android:layout_toStartOf="@+id/imCancer"
+        android:id="@+id/textView"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <TextView
+        android:text="Cancer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/imCancer"
+        android:layout_alignLeft="@+id/imCancer"
+        android:layout_alignStart="@+id/imCancer"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_toLeftOf="@+id/imAries"
+        android:layout_toStartOf="@+id/imAries"
+        android:textAlignment="center" />
+
+    <TextView
+        android:text="Aries"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView8"
+        android:textSize="15sp"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_toLeftOf="@+id/imCapricorn"
+        android:textAlignment="center"
+        android:layout_alignLeft="@+id/imAries"
+        android:layout_alignStart="@+id/imAries"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <TextView
+        android:text="Gemini"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView10"
+        android:layout_below="@+id/imGemini"
+        android:layout_alignRight="@+id/imGemini"
+        android:layout_alignEnd="@+id/imGemini"
+        android:textColor="@android:color/holo_red_dark"
+        android:textAlignment="center"
+        android:layout_alignLeft="@+id/imGemini"
+        android:layout_alignStart="@+id/imGemini" />
+
+    <TextView
+        android:text="Leo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView10"
+        android:layout_alignLeft="@+id/imLeo"
+        android:layout_alignStart="@+id/imLeo"
+        android:id="@+id/textView12"
+        android:layout_alignRight="@+id/imLeo"
+        android:layout_alignEnd="@+id/imLeo"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <TextView
+        android:text="Libra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imLibra"
+        android:layout_alignLeft="@+id/imLibra"
+        android:layout_alignStart="@+id/imLibra"
+        android:id="@+id/textView15"
+        android:layout_alignRight="@+id/imLibra"
+        android:layout_alignEnd="@+id/imLibra"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <TextView
+        android:text="Pisces"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView16"
+        android:layout_below="@+id/imPisces"
+        android:layout_alignRight="@+id/imPisces"
+        android:layout_alignEnd="@+id/imPisces"
+        android:textColor="@android:color/holo_red_dark"
+        android:textAlignment="center" />
+
+    <TextView
+        android:text="Sagittaurus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView17"
+        android:textAlignment="center"
+        android:layout_below="@+id/imSagittaurus"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <TextView
+        android:text="Scorpio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imScorpio"
+        android:layout_alignLeft="@+id/imScorpio"
+        android:layout_alignStart="@+id/imScorpio"
+        android:id="@+id/textView19"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <TextView
+        android:text="Taurus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imTaurus"
+        android:layout_alignLeft="@+id/imTaurus"
+        android:layout_alignStart="@+id/imTaurus"
+        android:id="@+id/textView20"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <TextView
+        android:text="Virgo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView21"
+        android:layout_below="@+id/imVirgo"
+        android:layout_alignLeft="@+id/textView16"
+        android:layout_alignStart="@+id/textView16"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <TextView
+        android:text="Capricorn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView9"
+        android:elevation="1dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:textAlignment="center"
+        android:layout_below="@+id/imCapricorn"
+        android:layout_alignRight="@+id/imCapricorn"
+        android:layout_alignEnd="@+id/imCapricorn" />
+
+    <TextView
+        android:text="Yearly Horoscope"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView24"
+        android:textSize="18sp"
+        android:textColorLink="@android:color/holo_red_dark"
+        android:textAllCaps="true"
+        android:layout_marginBottom="21dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_above="@+id/imAries"
+        android:layout_toLeftOf="@+id/textView9"
+        android:layout_toStartOf="@+id/textView9" />
+</RelativeLayout>
